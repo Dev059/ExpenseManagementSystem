@@ -4,7 +4,7 @@ const morgan = require("morgan");
 const dotenv = require("dotenv");
 const colors = require("colors");
 const path = require("path");
-const cors=require('cors');
+const cors=require("cors");
 const connectDb = require("./config/connectDb");
 // config dot env file
 dotenv.config();
